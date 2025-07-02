@@ -17,8 +17,12 @@ management:
     web:
       exposure:
         include: refresh, health, info, monitor
-
 spring:
+  cloud:
+    config:
+      allowOverride: true
+      overrideNone: true
+      overrideSystemProperties: false
   datasource:
     url: jdbc:mysql://localhost:3307/employee_db
     username: root
