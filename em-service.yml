@@ -44,6 +44,10 @@ eem:
     cache-path: ${java.io.tmpdir}/eem/working-hours.csv
 
 management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh, health, info, monitor
   tracing:
     propagation:
       consume: [ b3, w3c ]
