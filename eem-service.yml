@@ -30,11 +30,6 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
-  config:
-#    import: optional:configserver:http://localhost:8888
-    import: optional:configserver:config-server
-  application:
-    name: eem-service
   mvc:
     servlet:
       path: /eem  # This sets the global prefix for all controllers
