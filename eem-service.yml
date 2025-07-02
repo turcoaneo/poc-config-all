@@ -24,9 +24,6 @@ spring:
       overrideNone: true
       overrideSystemProperties: false
   datasource:
-    url: jdbc:mysql://localhost:3307/employee_db
-    username: root
-    password: Sky_Dev#*75
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     database-platform: org.hibernate.dialect.MySQLDialect
