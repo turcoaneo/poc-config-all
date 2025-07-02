@@ -15,8 +15,8 @@ spring:
 
 eem:
   scheduler:
-    cron: "0 */5 * * * *"
-    enabled: false
+    cron: "0 */2 * * * *"
+    enabled: true
 
 logging:
   level:
