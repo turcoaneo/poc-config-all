@@ -1,4 +1,15 @@
+grpc:
+  server:
+    port: 9093
+server:
+  port: 8093
 spring:
+  graphql:
+    graphiql:
+      enabled: true
+      path: /graphiql
+  config:
+    import: optional:configserver:http://localhost:8888
   application:
     name: em-service
   mvc:
@@ -7,6 +18,8 @@ spring:
     pathmatch:
       matching-strategy: ant_path_matcher  # Ensures correct path mapping
   datasource:
+    url: jdbc:mysql://localhost:3307/employer_db
+    username: root
     password: Sky_Dev#*75
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
@@ -14,3 +27,31 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+
+resilience4j:
+  circuitbreaker:
+    instances:
+      eemCircuitBreaker:
+        failure-rate-threshold: 50
+        wait-duration-in-open-state: 30s
+        sliding-window-type: COUNT_BASED
+        sliding-window-size: 5
+        minimum-number-of-calls: 3
+        automatic-transition-from-open-to-half-open-enabled: true
+        permitted-number-of-calls-in-half-open-state: 5
+
+eem:
+  fallback:
+    cache-enabled: true
+    cache-path: ${java.io.tmpdir}/eem/working-hours.csv
+
+management:
+  tracing:
+    propagation:
+      consume: [ b3, w3c ]
+      produce: [ b3 ]
+    sampling:
+      probability: 1.0
+  zipkin:
+    tracing:
+      endpoint: http://localhost:9411/api/v2/spans
