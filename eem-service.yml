@@ -10,9 +10,6 @@ management:
       produce: [ b3 ]
     sampling:
       probability: 1.0
-  zipkin:
-    tracing:
-      endpoint: http://localhost:9411/api/v2/spans
   endpoints:
     web:
       exposure:
@@ -35,11 +32,6 @@ spring:
       path: /eem  # This sets the global prefix for all controllers
     pathmatch:
       matching-strategy: ant_path_matcher  # Ensures correct path mapping
-
-eem:
-  scheduler:
-    cron: "0 */20 * * * *"
-    enabled: false
 
 logging:
   level:
