@@ -2,7 +2,7 @@ server:
   port: 8092
 spring:
   config:
-    import: optional:configserver:http://localhost:8888
+    import: optional:configserver:configserver
   application:
     name: uam-service
   mvc:
@@ -13,13 +13,7 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3307/user_auth_db
     username: root
-#    password: Sky_Dev#*75
-
-logging:
-  level:
-    root: INFO
-    com.poc.microservices: DEBUG
-    org.springframework.web: WARN
+    # password: as ENV var
 
 springdoc:
   api-docs:
