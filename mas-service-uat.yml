@@ -1,7 +1,8 @@
 em:
   graphql:
-    url: http://localhost:8093/em/graphql
+    url: http://13.50.155.81:8093/em/graphql
     service: http://api-gateway/em-service/em/graphql
 
 kafka:
     enabled: false
+    hostname: 13.50.155.81
