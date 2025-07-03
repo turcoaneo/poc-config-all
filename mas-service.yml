@@ -17,3 +17,12 @@ spring:
 
 security:
   excludedEndpoints: "/mas/mas-users/login,/mas/mas-users/register"
+
+management:
+  tracing:
+    propagation:
+      consume: [ b3, w3c ]
+      produce: [ b3 ]
+      type: b3
+    sampling:
+      probability: 1.0
