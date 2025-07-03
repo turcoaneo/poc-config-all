@@ -2,6 +2,10 @@ server:
   port: 8091
 spring:
   cloud:
+    config:
+      allowOverride: true
+      overrideNone: true
+      overrideSystemProperties: false
     openfeign:
       okhttp:
         enabled: true
