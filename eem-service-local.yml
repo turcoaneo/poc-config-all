@@ -17,6 +17,9 @@ eem:
   scheduler:
     cron: "0 */2 * * * *"
     enabled: true
+em:
+  grpc:
+    hostname: localhost
 
 logging:
   level:
