@@ -10,3 +10,4 @@ management:
 
 kafka:
     enabled: false
+    hostname: localhost
