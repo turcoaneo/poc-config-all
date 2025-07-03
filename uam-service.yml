@@ -1,6 +1,11 @@
 server:
   port: 8092
 spring:
+  cloud:
+    config:
+      allowOverride: true
+      overrideNone: true
+      overrideSystemProperties: false
   mvc:
     servlet:
       path: /uam  # This sets the global prefix for all controllers
