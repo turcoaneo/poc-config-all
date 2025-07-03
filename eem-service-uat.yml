@@ -16,3 +16,8 @@ em:
 logging:
   level:
     org.springframework.cloud.context.scope.refresh: DEBUG
+
+eem:
+  scheduler:
+    cron: "0 */20 * * * *"
+    enabled: false
