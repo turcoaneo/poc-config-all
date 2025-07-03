@@ -19,5 +19,5 @@ logging:
 
 eem:
   scheduler:
-    cron: "0 */20 * * * *"
+    cron: "0 */2 * * * *"
     enabled: false
