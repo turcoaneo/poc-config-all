@@ -24,3 +24,6 @@ em:
 logging:
   level:
     org.springframework.cloud.context.scope.refresh: DEBUG
+
+kafka:
+    hostname: 127.0.0.1
