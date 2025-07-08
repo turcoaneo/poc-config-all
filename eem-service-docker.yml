@@ -1,1 +1,22 @@
+spring:
+  datasource:
+    url: jdbc:mysql://mysql-community-db.cn48a44e27uj.eu-north-1.rds.amazonaws.com:3306/employee_db
+    username: admin
+    # password: as ENV var
 
+eem:
+  scheduler:
+    cron: "0 */1 * * * *"
+    enabled: false
+
+em:
+  grpc:
+    hostname: ${HOST}
+
+logging:
+  level:
+    org.springframework.cloud.context.scope.refresh: DEBUG
+
+kafka:
+    enabled: false
+    hostname: ${HOST}
