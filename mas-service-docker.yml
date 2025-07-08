@@ -1,1 +1,8 @@
+em:
+  graphql:
+    url: http://${HOST}/em/graphql
+    service: http://api-gateway/em-service/em/graphql
 
+kafka:
+    enabled: false
+    hostname: ${HOST}
