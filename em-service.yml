@@ -19,6 +19,7 @@ spring:
     pathmatch:
       matching-strategy: ant_path_matcher  # Ensures correct path mapping
   datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
     generate-ddl: true
   jpa:
     database-platform: org.hibernate.dialect.MySQLDialect
