@@ -1,11 +1,11 @@
 server:
   port: 8092
 spring:
-  cloud:
-    config:
-      allowOverride: true
-      overrideNone: true
-      overrideSystemProperties: false
+  # cloud:
+  #   config:
+  #     allowOverride: true
+  #     overrideNone: true
+  #     overrideSystemProperties: false
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     # generate-ddl: true
