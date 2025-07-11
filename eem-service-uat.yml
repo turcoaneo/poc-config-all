@@ -20,3 +20,6 @@ logging:
 kafka:
     enabled: false
     hostname: ${HOST}
+
+server:
+  address: 0.0.0.0
