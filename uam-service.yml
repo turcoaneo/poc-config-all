@@ -1,6 +1,11 @@
 server:
   port: 8092
 spring:
+  cloud:
+    config:
+      allowOverride: true
+      overrideNone: true
+      overrideSystemProperties: false
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
     # generate-ddl: true
@@ -9,11 +14,6 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
-  cloud:
-    config:
-      allowOverride: true
-      overrideNone: true
-      overrideSystemProperties: false
   mvc:
     servlet:
       path: /uam  # This sets the global prefix for all controllers
