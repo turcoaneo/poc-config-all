@@ -6,6 +6,7 @@ spring:
           handling_mode: DELAYED_ACQUISITION_AND_RELEASE_AFTER_STATEMENT
   datasource:
     hikari:
+      auto-commit: true
       maximum-pool-size: 5
       minimum-idle: 2
       idle-timeout: 30000 # 30s
