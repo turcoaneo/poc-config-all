@@ -32,6 +32,8 @@ em:
 
 logging:
   level:
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
     org.springframework.cloud.context.scope.refresh: DEBUG
 
 kafka:
@@ -40,8 +42,3 @@ kafka:
 
 server:
   address: 0.0.0.0
-
-logging:
-  level:
-    org.hibernate.SQL: DEBUG
-    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
