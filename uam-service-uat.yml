@@ -17,7 +17,7 @@ spring:
       idle-timeout: 30000 # 30s
       max-lifetime: 180000 # 3 mins
       connection-timeout: 10000 # 10s
-    # url: jdbc:mysql://mysql-community-db.cn48a44e27uj.eu-north-1.rds.amazonaws.com:3306/user_auth_db
+    url: jdbc:mysql://mysql-community-db.cn48a44e27uj.eu-north-1.rds.amazonaws.com:3306/user_auth_db
     username: admin
     # password: as ENV var
 server:
