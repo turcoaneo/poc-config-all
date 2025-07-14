@@ -1,5 +1,5 @@
 spring:
-  jpa:
+  # jpa:
     # open-in-view: false
     # properties:
     #   hibernate:
