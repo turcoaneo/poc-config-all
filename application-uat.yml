@@ -6,6 +6,6 @@ spring:
   datasource:
     initialization-mode: never
     continue-on-error: true
-  jpa:
-    hibernate:
-      ddl-auto: validate
+  # jpa:
+  #   hibernate:
+  #     ddl-auto: validate
