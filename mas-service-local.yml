@@ -9,5 +9,5 @@ em:
 #       endpoint: http://localhost:9411/api/v2/spans
 
 kafka:
-    enabled: false
+    enabled: true
     hostname: localhost
