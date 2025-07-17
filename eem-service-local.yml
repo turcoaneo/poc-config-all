@@ -26,5 +26,5 @@ logging:
     org.springframework.cloud.context.scope.refresh: DEBUG
 
 kafka:
-    enabled: false
+    enabled: true
     hostname: 127.0.0.1
