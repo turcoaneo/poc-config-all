@@ -18,7 +18,7 @@ spring:
   cloud:
     config:
       allowOverride: true
-      overrideNone: true
+      overrideNone: false
       overrideSystemProperties: false
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
