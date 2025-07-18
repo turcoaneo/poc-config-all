@@ -16,7 +16,7 @@ spring:
 eem:
   scheduler:
     cron: "0 */1 * * * *"
-    enabled: true
+    enabled: false
 em:
   grpc:
     hostname: localhost
