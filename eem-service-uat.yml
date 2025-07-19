@@ -29,7 +29,7 @@ eem:
 
 em:
   grpc:
-    hostname: ${HOST}
+    hostname: poc-alb-1312740255.eu-north-1.elb.amazonaws.com
 
 logging:
   level:
