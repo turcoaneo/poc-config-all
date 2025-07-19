@@ -25,7 +25,7 @@ spring:
 eem:
   scheduler:
     cron: "0 */2 * * * *"
-    enabled: false
+    enabled: true
 
 em:
   grpc:
