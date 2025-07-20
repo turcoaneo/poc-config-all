@@ -29,3 +29,8 @@ logging:
   level:
     org.hibernate.SQL: DEBUG
     org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+
+jks:
+  server:
+    filePath: server.jks
+    truststore: server-truststore.jks
