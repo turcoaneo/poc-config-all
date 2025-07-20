@@ -20,3 +20,8 @@ logging:
 kafka:
     enabled: false
     hostname: ${HOST}
+
+jks:
+  client:
+    filePath: client.jks
+    truststore: client-truststore.jks
