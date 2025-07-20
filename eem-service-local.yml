@@ -20,7 +20,7 @@ eem:
 em:
   grpc:
     hostname: localhost
-    port: 8093
+    port: 9093
 
 logging:
   level:
