@@ -3,3 +3,8 @@ spring:
     url: jdbc:mysql://${HOST}:3307/employer_db
     username: root
     # password: as ENV var
+
+jks:
+  server:
+    filePath: server.jks
+    truststore: server-truststore.jks
