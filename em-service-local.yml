@@ -8,3 +8,8 @@ spring:
 #   zipkin:
 #     tracing:
 #       endpoint: http://localhost:9411/api/v2/spans
+
+jks:
+  server:
+    filePath: server.jks
+    truststore: server-truststore.jks
