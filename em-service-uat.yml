@@ -32,5 +32,5 @@ logging:
 
 jks:
   server:
-    filePath: server.jks
-    truststore: server-truststore.jks
+    filePath: server-uat.jks
+    truststore: server-truststore-uat.jks
