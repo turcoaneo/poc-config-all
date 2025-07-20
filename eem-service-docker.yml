@@ -12,6 +12,7 @@ eem:
 em:
   grpc:
     hostname: ${HOST}
+    port: 8093
 
 logging:
   level:
