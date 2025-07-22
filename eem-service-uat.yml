@@ -29,7 +29,7 @@ eem:
 
 em:
   grpc:
-    tlsEnabled: false
+    tlsEnabled: true
     hostname: poc-alb-1312740255.eu-north-1.elb.amazonaws.com
     # hostname: ${EIP}
     port: 9093
