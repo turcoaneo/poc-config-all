@@ -19,6 +19,7 @@ eem:
     enabled: true
 em:
   grpc:
+    tlsEnabled: true
     hostname: localhost
     port: 9093
 
