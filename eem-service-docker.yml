@@ -11,6 +11,7 @@ eem:
 
 em:
   grpc:
+    tlsEnabled: true
     hostname: ${HOST}
     port: 9093
 
