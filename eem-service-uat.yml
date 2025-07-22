@@ -32,7 +32,7 @@ em:
     tlsEnabled: true
     hostname: poc-alb-1312740255.eu-north-1.elb.amazonaws.com
     # hostname: ${EIP}
-    port: 9093
+    port: 8093
 
 logging:
   level:
