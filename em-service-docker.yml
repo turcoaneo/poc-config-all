@@ -8,3 +8,6 @@ jks:
   server:
     filePath: server.jks
     truststore: server-truststore.jks
+
+grpc:  
+  tls-enabled: true
