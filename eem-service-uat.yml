@@ -30,7 +30,7 @@ eem:
 em:
   grpc:
     hostname: poc-alb-1312740255.eu-north-1.elb.amazonaws.com
-    port: 8093
+    port: 9093
 
 logging:
   level:
