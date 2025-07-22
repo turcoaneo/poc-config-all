@@ -15,4 +15,4 @@ jks:
     truststore: server-truststore.jks
 
 grpc:
-  tlsEnabled: false
+  tlsEnabled: true
