@@ -26,7 +26,7 @@ server:
   address: 0.0.0.0
 
 grpc:
-  tlsEnabled: false
+  tlsEnabled: true
 
 logging:
   level:
