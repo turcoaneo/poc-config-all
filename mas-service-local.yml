@@ -3,10 +3,10 @@ em:
     url: http://localhost:8093/em/graphql
     service: http://api-gateway/em-service/em/graphql
 
-# management:
-#   zipkin:
-#     tracing:
-#       endpoint: http://localhost:9411/api/v2/spans
+management:
+  zipkin:
+    tracing:
+      endpoint: http://localhost:9411/api/v2/spans
 
 kafka:
     enabled: true
