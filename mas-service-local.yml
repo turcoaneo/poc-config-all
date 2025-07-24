@@ -11,3 +11,4 @@ management:
 kafka:
     enabled: true
     hostname: localhost
+    port: 9092
