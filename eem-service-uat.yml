@@ -41,8 +41,9 @@ logging:
     org.springframework.cloud.context.scope.refresh: DEBUG
 
 kafka:
-    enabled: false
-    hostname: ${HOST}
+  hostname: boot-xwyehken.c1.kafka-serverless.eu-north-1.amazonaws.com
+  port: 9098
+  enabled: true
 
 server:
   address: 0.0.0.0
