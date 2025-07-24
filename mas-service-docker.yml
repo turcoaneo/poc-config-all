@@ -4,6 +4,6 @@ em:
     service: http://api-gateway/em-service/em/graphql
 
 kafka:
-    enabled: false
-    hostname: ${HOST}
-    port: 9092
+  enabled: false
+  hostname: ${HOST}
+  port: 9092
