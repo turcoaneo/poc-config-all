@@ -20,8 +20,9 @@ logging:
     org.springframework.cloud.context.scope.refresh: DEBUG
 
 kafka:
-    enabled: false
-    hostname: ${HOST}
+  enabled: false
+  hostname: ${HOST}
+  port: 9092
 
 jks:
   client:
