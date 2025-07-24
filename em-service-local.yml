@@ -4,10 +4,10 @@ spring:
     username: root
     # password: as ENV var
 
-# management:
-#   zipkin:
-#     tracing:
-#       endpoint: http://localhost:9411/api/v2/spans
+management:
+  zipkin:
+    tracing:
+      endpoint: http://localhost:9411/api/v2/spans
 
 jks:
   server:
