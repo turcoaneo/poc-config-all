@@ -6,3 +6,4 @@ em:
 kafka:
     enabled: false
     hostname: ${HOST}
+    port: 9092
