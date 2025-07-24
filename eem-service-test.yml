@@ -2,3 +2,8 @@ grpc:
   server:
    port: 0  # Dynamically allocates a free port
     # port: -1  # Disable
+
+eem:
+  scheduler:
+    cron: "0/1 * * * * *"
+    enabled: true
