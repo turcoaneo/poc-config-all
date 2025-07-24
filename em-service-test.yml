@@ -1,0 +1,4 @@
+grpc:
+  server:
+   port: 0  # Dynamically allocates a free port
+    # port: -1  # Disable
