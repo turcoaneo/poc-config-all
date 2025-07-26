@@ -11,3 +11,7 @@ eureka:
     preferIpAddress: true
     leaseRenewalIntervalInSeconds: 30  # Ensures regular heartbeat updates
     leaseExpirationDurationInSeconds: 90  # Prevents premature instance removal
+
+logger:
+  org.apache.kafka.common.config.AbstractConfig: ERROR
+  org.apache.kafka.clients.admin.AdminClientConfig: ERROR
