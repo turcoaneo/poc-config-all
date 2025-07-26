@@ -10,3 +10,8 @@ kafka:
 
 server:
   address: 0.0.0.0
+
+jks:
+  client:
+    filePath: client-uat.jks
+    truststore: client-truststore-uat.jks
