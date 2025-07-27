@@ -15,4 +15,4 @@ kafka:
 
 spring:
   kafka:
-    bootstrap-servers: localhost:9093
+    bootstrap-servers: localhost:9092
