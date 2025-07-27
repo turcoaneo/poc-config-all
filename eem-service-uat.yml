@@ -39,7 +39,7 @@ kafka:
   hostname: 13.61.132.105
   # hostname: container-poc-kafka
   port: 9092
-  enabled: false
+  enabled: true
 
 server:
   address: 0.0.0.0
