@@ -4,8 +4,8 @@ em:
     service: http://api-gateway/em-service/em/graphql
 
 kafka:
-  # hostname: 13.61.132.105
-  # port: 9092
+  hostname: 13.61.132.105
+  port: 9092
   enabled: true
 
 server:
@@ -20,7 +20,6 @@ spring:
   kafka:
     security:
       protocol: "SSL"
-    bootstrap-servers: 13.61.132.105:9092
     ssl:
       trust-store-location: classpath:/client-truststore-uat.jks
       trust-store-password: ${JKS_PWD}
