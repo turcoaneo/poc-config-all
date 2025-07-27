@@ -4,6 +4,10 @@ em:
     service: http://api-gateway/em-service/em/graphql
 
 kafka:
-  enabled: false
-  hostname: ${HOST}
-  port: 9092
+    enabled: true
+    # hostname: localhost
+    # port: 9092
+
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
