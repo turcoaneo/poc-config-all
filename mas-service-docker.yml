@@ -5,9 +5,5 @@ em:
 
 kafka:
     enabled: true
-    # hostname: localhost
-    # port: 9092
-
-spring:
-  kafka:
-    bootstrap-servers: localhost:9092
+    hostname: localhost
+    port: 9092
