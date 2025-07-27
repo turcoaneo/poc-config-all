@@ -21,7 +21,7 @@ spring:
     security:
       protocol: "SSL"
     ssl:
-      trust-store-location: classpath:/client-truststore-uat.jks
+      trust-store-location: classpath:/mas-client/client-truststore-uat.jks
       trust-store-password: ${JKS_KEY}
-      key-store-location:  classpath:/client-uat.jks
+      key-store-location:  classpath:/mas-client/client-uat.jks
       key-store-password: ${JKS_KEY}
