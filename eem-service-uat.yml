@@ -53,3 +53,11 @@ jks:
   client:
     filePath: client-uat.jks
     truststore: client-truststore-uat.jks
+
+spring:
+  kafka:
+    security:
+      protocol: "SSL"
+    ssl:
+      trust-store-password: ${JKS_KEY}
+      key-store-password: ${JKS_KEY}
