@@ -1,15 +1,4 @@
 spring:
-  # jpa:
-  #   open-in-view: false
-  #   properties:
-  #     hibernate:
-  #       format_sql: true
-  #       use_sql_comments: true
-  #       show_sql: true        # Makes logs verbose and traceable
-  #       connection.autocommit: true
-  #       flushMode: AUTO
-  #       connection:
-  #         handling_mode: DELAYED_ACQUISITION_AND_RELEASE_AFTER_STATEMENT
   datasource:
     hikari:
       # auto-commit: true
