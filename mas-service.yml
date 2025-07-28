@@ -31,3 +31,6 @@ management:
       type: b3
     sampling:
       probability: 1.0
+
+kafka:
+  createTopic: false
