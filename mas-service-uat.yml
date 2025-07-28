@@ -11,7 +11,7 @@ kafka:
   port: 9097
   enabled: true
   security: plaintext
-  createTopic: false
+  createTopic: true
 
 server:
   address: 0.0.0.0
