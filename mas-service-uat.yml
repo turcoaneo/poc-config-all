@@ -9,6 +9,8 @@ kafka:
   hostname: 13.61.132.105
   port: 9092
   enabled: true
+  security: plaintext
+  createTopic: false
 
 server:
   address: 0.0.0.0
@@ -18,10 +20,10 @@ jks:
     filePath: client-uat.jks
     truststore: client-truststore-uat.jks
 
-spring:
-  kafka:
-    security:
-      protocol: "SSL"
-    ssl:
-      trust-store-password: ${JKS_KEY}
-      key-store-password: ${JKS_KEY}
+# spring:
+#   kafka:
+#     security:
+#       protocol: "SSL"
+#     ssl:
+#       trust-store-password: ${JKS_KEY}
+#       key-store-password: ${JKS_KEY}
