@@ -6,7 +6,8 @@ em:
 kafka:
   filePath: client-kafka-uat.jks
   truststore: client-truststore-kafka-uat.jks
-  hostname: 13.61.132.105
+  # hostname: 13.61.132.105
+  hostname: nlb-poc-kafka-13-61-132-105-bd771763ad7f5fdc.elb.eu-north-1.amazonaws.com
   port: 9097
   enabled: true
   security: plaintext
