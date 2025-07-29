@@ -3,6 +3,7 @@ spring:
     security:
       protocol: "SSL"
     ssl:
+      key-password: ${JKS_KEY}
       trust-store-password: ${JKS_KEY}
       key-store-password: ${JKS_KEY}
   datasource:
