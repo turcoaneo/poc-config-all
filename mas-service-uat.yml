@@ -23,7 +23,8 @@ jks:
 spring:
   kafka:
     security:
-      protocol: "SSL"
+      protocol: SSL
     ssl:
-      trust-store-password: ${JKS_KEY}
+      key-password: ${JKS_KEY}
       key-store-password: ${JKS_KEY}
+      trust-store-password: ${JKS_KEY}
